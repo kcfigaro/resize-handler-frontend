@@ -22,6 +22,7 @@ sdi frontend development - project by KC Chang
 - .top
 - .bottom
 - .of
+
 **2**. JS
 - set variables for resizing functions.
 - use initialiseResize()
