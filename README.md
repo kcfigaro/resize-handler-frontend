@@ -11,7 +11,7 @@ resizer bar function and slimscroll using jquery - project by KC Chang
   // currentHeight = the section's original height(using getComputedStyle).
   // currentY = the orignal section height from client(browser).
   // loc.pageY = the change section height from client(browser).
-  section.style.height = (startHeight + e.clientY - startY) + "px";
+  //section.style.height = (startHeight + e.clientY - startY) + "px";
   var resizeHeight = Math.round(currentHeight + loc.pageY - currentY - 16);
   ```
 
