@@ -1,0 +1,17 @@
+.row-icon-bar {
+    width: 20px;
+    margin: 2px auto;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+.row-resizer-bar {
+    cursor: row-resize;
+    padding-top: 12px;
+    width: 100%;
+    float: left;
+}
+
+.box-bottom-padding {
+    padding-bottom: 6px;
+}

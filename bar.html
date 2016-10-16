@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resizer BAR</title>
+    <link rel="stylesheet" href="css/bar.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="libs/jquery.slimscroll.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="inner-content-div" class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>May</td>
+                        <td>Chris</td>
+                        <td>may@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Juno</td>
+                        <td>KIM</td>
+                        <td>juno@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="resizer-bar-panel" class="row-resizer-bar">
+        <div class="row-icon-bar"></div>
+        <div class="row-icon-bar"></div>
+        <div class="row-icon-bar"></div>
+    </div>
+    <script src="js/bar.js"></script>
+    <script>
+        _bar.init();
+    </script>
+</body>
+
+</html>
