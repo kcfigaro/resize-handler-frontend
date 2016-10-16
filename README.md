@@ -38,8 +38,8 @@ resizer bar function and slimscroll using jquery - project by KC Chang
 
 ## Resource
 Essentials:
-- Click location and Change height.
 - Handle mouse events.
+- Change default scroller to slimScroll.
 
 Useful Links:
 - How to adjust the size of multiple adjacent textareas like in jsfiddle.net? [Links](http://stackoverflow.com/questions/8819328/how-to-adjust-the-size-of-multiple-adjacent-textareas-like-in-jsfiddle-net)
