@@ -15,7 +15,7 @@ resizer bar function and slimscroll using jquery - project by KC Chang
   var resizeHeight = Math.round(currentHeight + loc.pageY - currentY - 16);
   ```
 
-![resizer bar with slimscroll](screenshot.png)
+![resizer bar with slimscroll](resizer-bar.png)
 
 - If you need more explaination of get style, please check [Here](http://www.w3schools.com/jsref/jsref_getcomputedstyle.asp)
 - If you need more explaination of click location, please check [Here](http://felixblog.tistory.com/50).
